@@ -1,0 +1,208 @@
+* {
+  margin: 3px;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 5px;
+
+  color: grey;
+  border-bottom: 1px solid grey;
+}
+header ul {
+  margin-top: 10px;
+}
+header ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 5px;
+}
+header ul li a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #1e1e1e;
+  padding: 4px;
+}
+header a:hover {
+  background-color: rgb(199, 200, 201, 0.5);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+header .logo {
+  font-size: 60px;
+  font-family: "Big Shoulders Stencil Text", cursive;
+
+  overflow: hidden;
+  white-space: nowrap;
+  color: black;
+  margin-left: 30px;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+main .pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+main .text {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 50px;
+  margin-left: 50px;
+}
+main .text-1 {
+  align-items: center;
+}
+main .slogan {
+  font-size: 35px;
+  text-transform: uppercase;
+  color: antiquewhite;
+  width: 70%;
+  font-family: non-serif;
+  border-radius: 5px;
+  padding: 6px;
+}
+span {
+  background-color: black;
+  border-radius: 5px;
+  padding: 0px;
+}
+.new {
+  color: red;
+  font-size: 17px;
+  position: relative;
+  left: 7px;
+}
+
+main ul {
+  position: relative;
+  left: 15px;
+  font-size: 17px;
+}
+main button {
+  width: 20%;
+  padding: 5px;
+  font-size: 18px;
+  border-radius: 7px;
+}
+main button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.second {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.image-2 img {
+  height: 500px;
+  width: 550px;
+  position: relative;
+  right: 50px;
+}
+.text-second {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+  right: 60px;
+}
+.second .slogan-2 {
+  color: black;
+  text-transform: uppercase;
+  font-size: 30px;
+  width: 50%;
+  position: relative;
+  right: 25px;
+}
+.second ul {
+  position: relative;
+  right: 60px;
+  font-size: 17px;
+}
+.second button {
+  padding: 11px;
+  border-radius: 15px;
+  position: relative;
+  right: 170px;
+  font-size: 17px;
+}
+.second button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
+.subscribe {
+  background-color: black;
+  color: azure;
+  margin: 50px 10px;
+  text-align: center;
+}
+.subscribe p {
+  font-size: 30px;
+  padding: 5px;
+}
+.subscribe input {
+  margin: 3px;
+  padding: 5px;
+  width: 25%;
+}
+.subscribe button {
+  font-size: 18px;
+  padding: 5px;
+  margin-top: 6px;
+}
+.subscribe button:hover {
+  cursor: pointer;
+}
+.container {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  margin-top: 50px;
+  border-top: 1px solid rgb(177, 174, 174);
+  margin-bottom: 50px;
+}
+.name-slogan {
+  font-family: "Big Shoulders Stencil Text", cursive;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -20px;
+}
+.container h3 {
+  padding: 7px;
+  margin-bottom: 5px;
+  font-size: 1.3rem;
+  margin-top: 15px;
+}
+.container ul li {
+  list-style-type: none;
+}
+.container ul li a {
+  text-decoration: none;
+  color: gray;
+  font-size: 1.1rem;
+}
+.container ul li a:hover {
+  color: red;
+}
+.follow {
+  position: relative;
+  left: 15px;
+  bottom: 15px;
+}
+.container i:hover {
+  cursor: pointer;
+}
+.container p {
+  font-size: 1.1rem;
+}

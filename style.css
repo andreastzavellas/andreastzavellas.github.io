@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  color: rgb(10, 8, 8);
+  background: linear-gradient(-45deg, white, violet, blue, rgb(197, 35, 70));
+  background-size: 400% 400%;
+  position: relative;
+  /*animation: change 10s ease-in-out infinite;*/
+}
+
+.flex-container {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 800px;
+  height: 370px;
+
+  display: flex;
+}
+.flex-container img {
+  height: 90px;
+  border-radius: 50%;
+}
+.flex-container h4 {
+  margin-top: 5px;
+  font-weight: bold;
+  color: black;
+}
+.name p {
+  margin-top: 15px;
+  font-size: 18px;
+}
+.skills h1 {
+  margin-top: 15px;
+  margin-left: 10px;
+  font-size: 28px;
+}
+#line {
+  margin-top: 9px;
+}
+.sexy_line {
+  display: block;
+  border: none;
+  color: white;
+  height: 1px;
+  background: black;
+  background: -webkit-gradient(
+    radial,
+    50% 50%,
+    0,
+    50% 50%,
+    350,
+    from(#000),
+    to(#fff)
+  );
+}
+.name {
+  background-color: white;
+
+  height: 100%;
+  width: 35%;
+  margin-right: 10px;
+  border-radius: 10px;
+  text-align: center;
+  color: rgb(97, 96, 96);
+}
+.name h2 {
+  margin-top: 10px;
+}
+.skills {
+  background-color: white;
+  height: 100%;
+  width: 70%;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+.skills p {
+  padding: 5px;
+  font-size: 26px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+.skills h3 {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.skills ul {
+  margin-left: 30px;
+  font-size: 19px;
+}
+.portfolio {
+  position: absolute;
+  bottom: 80px;
+  right: 100px;
+  padding: 15px 40px;
+  border-radius: 6px;
+  background-color: rgba(0, 60, 255, 0.89);
+  font-size: 22px;
+}
+.portfolio:hover {
+  cursor: pointer;
+}
+
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}

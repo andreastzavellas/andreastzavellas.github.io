@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Goldman", cursive;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  background: red;
+}
+header h1 {
+  font-size: 50px;
+  margin-left: 40px;
+  padding: 5px 0px;
+  color: azure;
+}
+header h1:hover {
+  cursor: pointer;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#search {
+  padding: 10px 50px;
+  border-radius: 5px;
+}
+.sign-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header button {
+  padding: 8px 15px;
+  font-size: 17px;
+  border-radius: 5px;
+}
+header button:hover {
+  cursor: pointer;
+  font-weight: bolder;
+}
+header i {
+  padding-right: 5px;
+}
+header i:hover {
+  cursor: pointer;
+  color: white;
+}
+header p {
+  font-size: 1.3rem;
+  padding-left: 3px;
+}
+header p:hover {
+  cursor: pointer;
+  color: white;
+}
+.navbar {
+  background-color: gray;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 6px;
+}
+.navbar ul li {
+  display: inline;
+  padding: 5px 15px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.navbar ul li:hover {
+  font-size: 1.1rem;
+}
+.tele {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.filters {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+}
+.tele h3 {
+  padding: 10px;
+  color: rgb(143, 141, 141);
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+.filters li {
+  padding: 2px 2px;
+}
+.filters input {
+  margin-right: 5px;
+}
+.filters ul li {
+  list-style-type: none;
+}
+.filters h4 {
+  padding: 5px 1px;
+  font-size: 18px;
+  margin: 10px;
+}
+.filters input:hover {
+  cursor: pointer;
+}
+.filters button {
+  background-color: black;
+  color: wheat;
+  font-size: 18px;
+  padding: 2px;
+  border-radius: 3px;
+  margin-top: 20px;
+}
+.filters .def {
+  position: relative;
+  left: 10px;
+}
+.filters button:hover {
+  cursor: pointer;
+}
+.show-tv {
+  grid-column: 2/6;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.banner {
+  width: 70%;
+  height: 170px;
+  background-color: black;
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: aliceblue;
+  align-items: center;
+  justify-items: center;
+}
+
+.banner .black {
+  color: white;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.banner .sentence {
+  font-size: 1.1rem;
+}
+.banner button {
+  margin-top: 10px;
+  padding: 3px 15px;
+}
+.banner button:hover {
+  cursor: pointer;
+  color: red;
+}
+.banner .year {
+  color: red;
+  font-size: 40px;
+}
+.ads {
+  width: 90%;
+  border-bottom: 1px solid grey;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.ads .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.ads .info p {
+  width: 50%;
+}
+.ads .price {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 55px;
+}
+.price p {
+  color: green;
+  font-size: 1.3rem;
+}
+.price button {
+  padding: 2px 5px;
+  font-size: 1.5rem;
+  background-color: yellow;
+  margin: 5px;
+  border-radius: 5px;
+}
+.price button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.ads .lg p {
+  color: red;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: rgb(71, 71, 71);
+  border-top: 3px solid red;
+  margin-top: 70px;
+}
+.footer .list {
+  margin-top: 100px;
+  margin-bottom: 90px;
+  display: flex;
+  justify-content: center;
+}
+.footer p {
+  color: white;
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+}
+.footer ul li {
+  list-style-type: none;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  margin-bottom: 6px;
+}
+.footer .list-1 li a:hover {
+  color: red;
+}
+.footer .list-2 li a:hover {
+  color: red;
+}
+.footer .list-3 li a:hover {
+  color: red;
+}

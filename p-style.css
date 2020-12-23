@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.grid-container {
+  display: grid;
+  grid-gap: 40px;
+  padding: 30px;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+  background-color: white;
+  height: 30vh;
+  width: 25vw;
+  transition: 0.5s ease;
+  border-radius: 7px;
+}
+h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+.grid-item:hover {
+  transform: scale(1.5);
+}
+.grid-item img {
+  height: 30vh;
+  width: 55vh;
+}
